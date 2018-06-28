@@ -254,3 +254,4 @@ exec_always gsettings set org.nemo.desktop show-desktop-icons false
 exec_always setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
 
 exec_always compton -f
+exec_always gxneur &
